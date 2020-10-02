@@ -19,7 +19,7 @@ There are four notebooks:
 ### Setup (in the command line)
 
 1. Install Pipenv (Instructions [here](https://pipenv.pypa.io/))
-1. Clone this repository `git clone https://github.com/gavinrbrown1/algsocproject.git`
+1. Clone this repository `git clone https://github.com/shlomihod/performative-prediction-stateful-world.git`
 1. `cd performative-prediction-stateful-world`
 1. `pipenv install`
 1. `jupyter notebook`
