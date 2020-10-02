@@ -4,7 +4,7 @@
 
 
 ## Abstract
-Deployed supervised machine learning models make predictions that interact with and influence the world. This phenomenon is called \emph{performative prediction} by Perdomo et al. (2020), who investigated it in a stateless setting. We generalize their results to a world with a state, in which the response of the population to the deployed classifier depends both on the classifier and the previous distribution of the population. We also explore such a setting empirically, for the scenario of strategic manipulation.
+Deployed supervised machine learning models make predictions that interact with and influence the world. This phenomenon is called *performative prediction* by Perdomo et al. (2020), who investigated it in a stateless setting. We generalize their results to a world with a state, in which the response of the population to the deployed classifier depends both on the classifier and the previous distribution of the population. We also explore such a setting empirically, for the scenario of strategic manipulation.
 
 ## Code
 
