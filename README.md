@@ -11,8 +11,8 @@ This repository contains the experiments we run to investigate performative pred
 
 There are two notebooks:
 
-1. [`performative_prediction.ipynb`](https://github.com/gavinrbrown1/algsocproject/blob/master/performative_prediction.ipynb) - Replication of Perdomo et al. simulation.
-1. [`performative_prediction-groups-respond-slowly.ipynb`](https://github.com/gavinrbrown1/algsocproject/blob/master/performative_prediction-groups-respond-slowly.ipynb) - 3 Groups Respond Slowly setting.
+1. `performative_prediction.ipynb` - Replication of Perdomo et al. simulation.
+1. `performative_prediction-groups-respond-slowly.ipynb` - 3 Groups Respond Slowly setting.
 
 ### Setup (in the command line)
 
