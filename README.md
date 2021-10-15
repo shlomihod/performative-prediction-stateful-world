@@ -1,8 +1,5 @@
 # Performative Prediction in a Stateful World
 
-### Gavin Brown, Shlomi Hod, Iden Kalemaj
-
-
 ## Abstract
 Deployed supervised machine learning models make predictions that interact with and influence the world. This phenomenon is called *performative prediction* by Perdomo et al. (ICML 2020). It is an ongoing challenge to understand the influence of such predictions as well as design tools so as to control that influence. We propose a theoretical framework where the response of a target population to the deployed classifier is modeled as a function of the classifier and the current state (distribution) of the population. We show necessary and sufficient conditions for convergence to an equilibrium point of two retraining algorithms, *repeated risk minimization* and a lazier variant. Furthermore, convergence is near an optimal classifier. We thus generalize results of Perdomo et al.,~whose performativity framework does not assume any dependence on the state of the target population. A particular phenomenon captured by our model is that of distinct groups that acquire information and resources at different rates to be able to respond to the latest deployed classifier. We study this phenomenon theoretically and empirically. 
 ## Code
