@@ -1,44 +1,25 @@
 # Performative Prediction in a Stateful World
-
-<<<<<<< HEAD
+## AISTATS 2022
 ### Gavin Brown, Shlomi Hod, Iden Kalemaj
 
 
 ## Abstract
-Deployed supervised machine learning models make predictions that interact with and influence the world. This phenomenon is called *performative prediction* by Perdomo et al. (2020), who investigated it in a stateless setting. We generalize their results to a world with a state, in which the response of the population to the deployed classifier depends both on the classifier and the previous distribution of the population. We also explore such a setting empirically, for the scenario of strategic manipulation.
+Deployed supervised machine learning models make predictions that interact with and influence the world. This phenomenon is called *performative prediction* by Perdomo et al. (ICML 2020). It is an ongoing challenge to understand the influence of such predictions as well as design tools so as to control that influence. We propose a theoretical framework where the response of a target population to the deployed classifier is modeled as a function of the classifier and the current state (distribution) of the population. We show necessary and sufficient conditions for convergence to an equilibrium of two retraining algorithms, *repeated risk minimization* and a lazier variant. Furthermore, convergence is near an optimal classifier. We thus generalize results of Perdomo et al., whose performativity framework does not assume any dependence on the state of the target population. A particular phenomenon captured by our model is that of distinct groups that acquire information and resources at different rates to be able to respond to the latest deployed classifier. We study this phenomenon theoretically and empirically. 
 
-=======
-## Abstract
-Deployed supervised machine learning models make predictions that interact with and influence the world. This phenomenon is called *performative prediction* by Perdomo et al. (ICML 2020). It is an ongoing challenge to understand the influence of such predictions as well as design tools so as to control that influence. We propose a theoretical framework where the response of a target population to the deployed classifier is modeled as a function of the classifier and the current state (distribution) of the population. We show necessary and sufficient conditions for convergence to an equilibrium point of two retraining algorithms, *repeated risk minimization* and a lazier variant. Furthermore, convergence is near an optimal classifier. We thus generalize results of Perdomo et al., whose performativity framework does not assume any dependence on the state of the target population. A particular phenomenon captured by our model is that of distinct groups that acquire information and resources at different rates to be able to respond to the latest deployed classifier. We study this phenomenon theoretically and empirically. 
->>>>>>> 02087daafb841e9532b08634a0a752f16a38f080
 ## Code
 
 This repository contains the experiments we run to investigate performative prediction in a stateful world. Particularly, we used the setting of *strategic classification* in load application. The code is based on the [`whynot`](https://github.com/zykls/whynot) Python package, and it is an adaptation of the [`dynamic_decisions`](https://github.com/zykls/whynot/tree/master/examples/dynamic_decisions) examples.
 
-<<<<<<< HEAD
 There are four notebooks:
 
-1. [`performative_prediction.ipynb`](https://github.com/gavinrbrown1/algsocproject/blob/master/performative_prediction.ipynb) - Replication of Perdomo et al. simulation
-1. [`performative_prediction-groups-respond-slowly.ipynb`](https://github.com/gavinrbrown1/algsocproject/blob/master/performative_prediction-groups-respond-slowly.ipynb) - Three-groups respond slowly setting.
-1. [`performative_prediction-decay.ipynb`](https://github.com/gavinrbrown1/algsocproject/blob/master/performative_prediction-decay.ipynb) - Geometric decay response.
-=======
-There are two notebooks:
-
-1. `performative_prediction.ipynb` - Replication of Perdomo et al. simulation.
-1. `performative_prediction-groups-respond-slowly.ipynb` - 3 Groups Respond Slowly setting.
->>>>>>> 02087daafb841e9532b08634a0a752f16a38f080
+1. [`performative_prediction.ipynb`](https://github.com/shlomihod/performative-prediction-stateful-world/blob/main/performative_prediction.ipynb) - Replication of Perdomo et al. simulation
+1. [`performative_prediction-groups-respond-slowly.ipynb`](https://github.com/shlomihod/performative-prediction-stateful-world/blob/main/performative_prediction-groups-respond-slowly.ipynb) - Three-groups respond slowly setting.
+1. [`performative_prediction-decay.ipynb`](https://github.com/shlomihod/performative-prediction-stateful-world/blob/main/performative_prediction-decay.ipynb) - Geometric decay response.
 
 ### Setup (in the command line)
 
 1. Install Pipenv (Instructions [here](https://pipenv.pypa.io/))
-<<<<<<< HEAD
 1. Clone this repository `git clone https://github.com/shlomihod/performative-prediction-stateful-world.git`
 1. `cd performative-prediction-stateful-world`
 1. `pipenv install`
 1. `jupyter notebook`
-=======
-1. Clone this repository `git clone https://github.com/shlomihod/performative-prediction-stateful-world-review.git`
-1. `cd performative-prediction-stateful-world`
-1. `pipenv install`
-1. `jupyter notebook`
->>>>>>> 02087daafb841e9532b08634a0a752f16a38f080
